@@ -1,0 +1,11 @@
+table,tr,th,td {
+  border: 1px solid black;
+}
+
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: bisque;
+}
