@@ -1,0 +1,22 @@
+{
+  "name": "programmierspr_frontend_230420",
+  "version": "1.0.0",
+  "description": "Full Stack Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taramonheim/programmierspr_frontend_230420.git"
+  },
+  "author": "Tara Monheim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taramonheim/programmierspr_frontend_230420/issues"
+  },
+  "homepage": "https://github.com/taramonheim/programmierspr_frontend_230420#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
