@@ -7,10 +7,20 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <title>Monheim Tara Full Stack Project</title>
-  <script src="webserver.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
 
+</head>
+<script>
+  let url = "https://gist.githubusercontent.com/fg-uulm/666847dd7f11607fc2b6234c6d84d188/raw/2ca994ada633143903b10b2bf7ada3fd039cae35/mensa.json"
+
+   window.onload = () => { //= function() {} //wartet darauf das es fertig geladen ist 
+   axios.get(url).then((result) => {
+    content = result; //Inhalte abholen
+  })
+    document.getElementById("dessert").innerText = "Dessert: Schnitzelsorbet";//Inhalte in Html Datei verändern
+    }
+</script>
 <body>
   <h1>Full Stack Project</h1>
   <label for="Weekdays"><i>Choose a day</i></label>
@@ -27,7 +37,7 @@
   <br>
   <br>
 
-  <table border="1">
+  <table>
     <tr>
       <th>Information</th>
       <th>Costs</th>
